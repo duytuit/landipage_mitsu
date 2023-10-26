@@ -21,7 +21,7 @@ jQuery(function($) {
             "gia_xe":380000000,
             "gia_thuc_ban":328000000,
             "gia_dong_thuan":451000000,
-            "gia_tinh_thue":370000000,
+            "gia_tinh_thue":380000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         },
@@ -39,7 +39,7 @@ jQuery(function($) {
             "gia_xe":480000000,
             "gia_thuc_ban":423000000,
             "gia_dong_thuan":476000000,
-            "gia_tinh_thue":462000000,
+            "gia_tinh_thue":480000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         },
@@ -48,7 +48,7 @@ jQuery(function($) {
             "gia_xe":825000000,
             "gia_thuc_ban":748000000,
             "gia_dong_thuan":792000000,
-            "gia_tinh_thue":813000000,
+            "gia_tinh_thue":825000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + 2 Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -57,7 +57,7 @@ jQuery(function($) {
             "gia_xe":950000000,
             "gia_thuc_ban":863000000,
             "gia_dong_thuan":911000000,
-            "gia_tinh_thue":938000000,
+            "gia_tinh_thue":950000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + 2 Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -66,7 +66,7 @@ jQuery(function($) {
             "gia_xe":1130000000,
             "gia_thuc_ban":978000000,
             "gia_dong_thuan":1058000000,
-            "gia_tinh_thue":1029000000,
+            "gia_tinh_thue":1130000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -93,7 +93,7 @@ jQuery(function($) {
             "gia_xe":598000000,
             "gia_thuc_ban":544000000,
             "gia_dong_thuan":538000000,
-            "gia_tinh_thue":565000000,
+            "gia_tinh_thue":598000000,
             "cho_ngoi":7,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -102,7 +102,7 @@ jQuery(function($) {
             "gia_xe":658000000,
             "gia_thuc_ban":595000000,
             "gia_dong_thuan":538000000,
-            "gia_tinh_thue":620000000,
+            "gia_tinh_thue":658000000,
             "cho_ngoi":7,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -111,7 +111,7 @@ jQuery(function($) {
             "gia_xe":705000000,
             "gia_thuc_ban":634000000,
             "gia_dong_thuan":663000000,
-            "gia_tinh_thue":657000000,
+            "gia_tinh_thue":705000000,
             "cho_ngoi":7,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -120,7 +120,7 @@ jQuery(function($) {
             "gia_xe":698000000,
             "gia_thuc_ban":629000000,
             "gia_dong_thuan":663000000,
-            "gia_tinh_thue":657000000,
+            "gia_tinh_thue":698000000,
             "cho_ngoi":7,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -129,7 +129,7 @@ jQuery(function($) {
             "gia_xe":650000000,
             "gia_thuc_ban":585000000,
             "gia_dong_thuan":629000000,
-            "gia_tinh_thue":625000000,
+            "gia_tinh_thue":650000000,
             "cho_ngoi":9,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         },
@@ -138,7 +138,7 @@ jQuery(function($) {
             "gia_xe":780000000,
             "gia_thuc_ban":691000000,
             "gia_dong_thuan":752000000,
-            "gia_tinh_thue":748000000,
+            "gia_tinh_thue":780000000,
             "cho_ngoi":9,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn + Lắp thùng cuộn cơ"
         },
@@ -147,7 +147,7 @@ jQuery(function($) {
             "gia_xe":905000000,
             "gia_thuc_ban":835000000,
             "gia_dong_thuan":871000000,
-            "gia_tinh_thue":873000000,
+            "gia_tinh_thue":905000000,
             "cho_ngoi":9,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         }
