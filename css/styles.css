@@ -319,9 +319,10 @@ ul.nostyle i {
 
 #main-slider .item {
     height: 550px;
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-    background-size: cover;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
 }
 
 #main-slider .slider-inner {
@@ -1182,6 +1183,9 @@ ul.nostyle i {
 .col{
        padding: 10px 40px;
 }
+.dang_ky_ngay{
+    height: 70px;
+}
 .quytrinhmuaxe{
     width: 100%;
     display: flex;
@@ -1426,6 +1430,24 @@ ul.nostyle i {
     margin-top: 14px;   
 }
 @media only screen and (max-width: 480px) {
+    .section-header .section-title {
+        font-size: 26px;
+    }
+    #hero-text h2 {
+        font-size: 22px;
+    }
+    .btn_hieu_ung {
+        padding: 10px;
+    }
+    .size-original{
+        height: 50px;
+    }
+    .contact-info {
+        padding: 0;
+    }
+    .img-responsive {
+     padding: 15px;
+    }
     .img_quytrinhmuaxe{
         width: 325px;
     }
@@ -1450,9 +1472,7 @@ ul.nostyle i {
         height: 40px;
     }
     #main-slider .item {
-        /* height: 400px; */
-        background-position: 70% 100%;
-        background-size: cover;
+        height: 300px;
     }
     #portfolio .portfolio-filter {
         list-style: none;

@@ -57,7 +57,7 @@ jQuery(function($) {
             "gia_xe":950000000,
             "gia_thuc_ban":863000000,
             "gia_dong_thuan":911000000,
-            "gia_tinh_thue":926000000,
+            "gia_tinh_thue":938000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + 2 Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -66,7 +66,7 @@ jQuery(function($) {
             "gia_xe":1130000000,
             "gia_thuc_ban":978000000,
             "gia_dong_thuan":1058000000,
-            "gia_tinh_thue":1000000000,
+            "gia_tinh_thue":1029000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -75,7 +75,7 @@ jQuery(function($) {
             "gia_xe":1365000000,
             "gia_thuc_ban":1181000000,
             "gia_dong_thuan":1338000000,
-            "gia_tinh_thue":1000000000,
+            "gia_tinh_thue":1365000000,
             "cho_ngoi":5,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -93,7 +93,7 @@ jQuery(function($) {
             "gia_xe":598000000,
             "gia_thuc_ban":544000000,
             "gia_dong_thuan":538000000,
-            "gia_tinh_thue":585000000,
+            "gia_tinh_thue":565000000,
             "cho_ngoi":7,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
         },
@@ -147,7 +147,7 @@ jQuery(function($) {
             "gia_xe":905000000,
             "gia_thuc_ban":835000000,
             "gia_dong_thuan":871000000,
-            "gia_tinh_thue":748000000,
+            "gia_tinh_thue":873000000,
             "cho_ngoi":9,
             "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         }
@@ -381,7 +381,7 @@ jQuery(function($) {
         // other options
       });
       // Inline popups
-      $("#inline-popups").magnificPopup({
+      $(".inline-popups").magnificPopup({
         delegate: "a",
         removalDelay: 500, //delay removal by X to allow out-animation
         callbacks: {
