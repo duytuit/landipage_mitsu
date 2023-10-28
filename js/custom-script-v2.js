@@ -154,10 +154,6 @@ jQuery(function($) {
     ];
     'use strict';
     $('.select2').select2();
-    // Nav Scroll
-    $(window).scroll(function(event) {
-        Scroll();
-    });
 
     $('.navbar-collapse ul li a').on('click', function() {
         $('html, body').animate({
@@ -166,36 +162,11 @@ jQuery(function($) {
         return false;
     });
 
-    function Scroll() {
-        var contentTop = [];
-        var contentBottom = [];
-        var winTop = $(window).scrollTop();
-        var rangeTop = 200;
-        var rangeBottom = 500;
-        $('.navbar-collapse').find('.scroll a').each(function() {
-            contentTop.push($($(this).attr('href')).offset().top);
-            contentBottom.push($($(this).attr('href')).offset().top + $($(this).attr('href')).height());
-        })
-        $.each(contentTop, function(i) {
-            if (winTop > contentTop[i] - rangeTop) {
-                $('.navbar-collapse li.scroll')
-                    .removeClass('active')
-                    .eq(i).addClass('active');
-            }
-        })
-    };
-
-    $('#tohash').on('click', function() {
-        $('html, body').animate({
-            scrollTop: $(this.hash).offset().top - 5
-        }, 1000);
-        return false;
-    });
 
     //Slider
     $(document).ready(function() {
-        chitietgia();
-        uoc_tinh();
+        // chitietgia();
+       // uoc_tinh();
         var time = 7; // time in seconds
        
         var $progressBar,
@@ -384,8 +355,6 @@ jQuery(function($) {
         removalDelay: 500, //delay removal by X to allow out-animation
         callbacks: {
           beforeOpen: function () {
-            $('#form_register').get(0).reset()
-            $('.messager').html('')
             this.st.mainClass = this.st.el.attr("data-effect");
           },
         },
@@ -474,7 +443,7 @@ jQuery(function($) {
     })
     $('.khuvuc,.lap_rap,.dong_xe').change(function(e){
        e.preventdefault
-       chitietgia();
+    //    chitietgia();
     })
     function chitietgia(){
         if($('.khuvuc').val() && $('.lap_rap').val() && $('.dong_xe').val()){
@@ -714,3 +683,37 @@ jQuery(function($) {
         return all_time;
       }
 });
+(function () {
+    const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
+    var countDown = new Date('2023-11-30').getTime()
+    var _days = document.getElementById("days")
+    var _hours = document.getElementById("hours")
+    var _minutes = document.getElementById("minutes")
+    var _seconds = document.getElementById("seconds")
+    if(_days && _hours && _minutes && _seconds){
+        x = setInterval(function() {    
+  
+            const now = new Date().getTime(),
+                  distance = countDown - now;
+    
+              _days.innerText = Math.floor(distance / (day)),
+              _hours.innerText = Math.floor((distance % (day)) / (hour)),
+              _minutes.innerText = Math.floor((distance % (hour)) / (minute)),
+              _seconds.innerText = Math.floor((distance % (minute)) / second);
+    
+            //do something later when date is reached
+            if (distance < 0) {
+              document.getElementById("headline").innerText = "It's my birthday!";
+              document.getElementById("countdown").style.display = "none";
+              document.getElementById("content").style.display = "block";
+              clearInterval(x);
+            }
+            //seconds
+          }, 0)
+    }
+   
+       
+    }());

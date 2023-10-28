@@ -135,7 +135,9 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/gallery-1.css" rel="stylesheet">
+    <link href="css/flickity.min.css" rel="stylesheet">
     <link href="css/styles_v2.css" rel="stylesheet">
+    <!-- <link href="css/flatsome.css" rel="stylesheet"> -->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
 </head>
 <body id="gioithieu">
@@ -180,8 +182,8 @@
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="scroll fw-bold active"> <a href="index.html" class="nav-top-link color-white link_active">Trang Chủ</a></li>
-                        <li class="scroll fw-bold"> <a href="mitsubishi-attrage.html" class="nav-top-link color-white">ATTRAGE</a></li>
+                        <li class="scroll fw-bold"> <a href="index.html" class="nav-top-link color-white">Trang Chủ</a></li>
+                        <li class="scroll fw-bold active"> <a href="mitsubishi-attrage.html" class="nav-top-link color-white link_active">ATTRAGE</a></li>
                         <li class="scroll fw-bold"> <a href="mitsubishi-xpander.html" class="nav-top-link color-white">XPANDER</a></li>
                         <li class="scroll fw-bold"> <a href="mitsubishi-xpander-cross.html" class="nav-top-link color-white">XPANDER CROSS</a></li>
                         <li class="scroll fw-bold"> <a href="mitsubishi-triton-athlete.html" class="nav-top-link color-white">TRITON ATHLETE</a></li>
@@ -198,525 +200,229 @@
     </header>
     <!--/header-->
     <section id="main-slider">
-        <div class="owl-carousel">
-            <div class="item" style="background-image: url(images/slider/MAF_Digital-HOMEPAGE-1.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <!--/.item-->
-            <div class="item" style="background-image: url(images/slider/Banner-Slide-QX.webp);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/home-page-hero-banner-2.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/home-page-hero-banner-3.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/home-page-hero-banner-4.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/Homepage-Xpander-5Y-1980x1200-1.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/MMV_MobileAPP_Homepage-Banner-03.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/MMV_X-Force_Digital_Website-Cover_Desktop_N.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/promotion.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/RNX_Web-Cover_Brand_Desktop.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/xpander_banner_pc.jpeg);">
-                <div class="slider-inner">
-                    <div class="container">
-                    </div>
-                </div>
+        <div class="container">
+            <div class="breadcrumb_p_tb">
+                <nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="index.html">Trang chủ</a> <span
+                        class="divider">/</span> <a href="#">Mitsubishi attrage</a></nav>
             </div>
         </div>
-        </div>
-        <!--/.item-->
-        </div>
-        <!--/.owl-carousel-->
     </section>
     <!--/#main-slider-->
-    <section id="hero-text" class="wow fadeIn">
+    <section id="detail_product" class="wow fadeIn">
         <div class="container">
             <div class="row">
-                <div class="col-sm-9" style="color: #ffff;">
-                    <h2 style="color: #ed0100;">MITSUBISHI KIM LIÊN PHẠM VĂN ĐỒNG</h2>
-                     <br>Luôn có những chính sách giá tốt nhất dành cho những khách hàng đang quan tâm về dòng xe Mitsubishi.
-                     <br>Là địa chỉ tin cậy mua xe và chăm sóc chiếc xe yêu quý của quý khách hàng.
-                     <br>Chương trình ưu đãi được cập nhật hàng tháng. 
-                    </p>
-                </div>
-                <div class="col-sm-3 text-right">
-                    <div class="inline-popups">
-                        <a data-effect="mfp-move-from-top" class="btn btn-primary btn_hieu_ung ladi-transition"  href="#test-popup">
-                            Đăng ký tư vấn</a>
+                <div class="col-sm-12 col-sm-7">
+                   <!-- Flickity HTML init -->
+                    <div class="carousel carousel-main" data-flickity='{"pageDots": false }' style="border: 1px solid #c0bdbd;">
+                        <div class="carousel-cell img_detail"><img src="images/attrage/600x338/attrage-exterior-section.jpeg"/></div>
+                        <div class="carousel-cell img_detail"><img src="images/attrage/600x338/new-mitsubishi-attrage-2022-1-600x338.jpeg"/></div>
+                        <div class="carousel-cell img_detail"><img src="images/attrage/600x338/new-mitsubishi-attrage-2022-2-600x338.jpeg"/></div>
+                        <div class="carousel-cell img_detail"><img src="images/attrage/600x338/new-mitsubishi-attrage-2022-3-600x338.jpeg"/></div>
+                    </div>
+                    
+                    <div class="carousel carousel-nav"
+                        data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
+                        <div class="carousel-cell img_thumbnail"><img src="images/attrage/300x169/new-mitsubishi-attrage-2022-4-300x169.jpeg"/></div>
+                        <div class="carousel-cell img_thumbnail"><img src="images/attrage/300x169/new-mitsubishi-attrage-2022-1-300x169.jpeg"/></div>
+                        <div class="carousel-cell img_thumbnail"><img src="images/attrage/300x169/new-mitsubishi-attrage-2022-2-300x169.jpeg"/></div>
+                        <div class="carousel-cell img_thumbnail"><img src="images/attrage/300x169/new-mitsubishi-attrage-2022-3-300x169.jpeg"/></div>
                     </div>
                 </div>
+                <div class="col-sm-12 col-sm-5">
+                    <div class="product_info">
+                        <h1 class="product_title">
+                            MITSUBISHI ATTRAGE</h1>
+                        <bdi class="price_product">380.000.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi>
+                        <div class="product-short-description">
+                            <h4 style="background-color: #e0e0e0; padding: 5px; text-align: left;color: #515151;"><strong>BẢNG GIÁ ATTRAGE</strong></h4>
+                            <p><strong>Attrage MT:</strong> <strong style="color: #c00000;">380.000.000 VNĐ</strong><br>
+                                <strong>Attrage CVT:</strong> <strong style="color: #c00000;">465.000.000 VNĐ</strong><br>
+                                <strong>Attrage CVT Premium:</strong> <strong style="color: #c00000;">490.000.000 VNĐ</strong>
+                            </p>
+                            <p
+                                style="border-radius: 3px; background-color: #c00000; color: white; padding: 5px; text-align: left; font-size: 80%;">
+                                <strong>– Khuyến mãi &amp; ưu đãi</strong><br>
+                                <em>* Quý khách vui lòng liên hệ hotline tư vấn, nhận thông tin ưu đãi và khuyễn mãi.</em>
+                            </p>
+                            <div class="row row-small">
+                                <div class="col-sm-12 col-sm-6 form-group">
+                                    <div class="inline-popups">
+                                        <a data-effect="mfp-move-from-top" href="#test-popup" class="btn btn-danger" style="width: 100%;">
+                                            BÁO GIÁ LĂN BÁNH
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-sm-6">
+                                    <div class="col-inner">
+                                        <a href="tel:0366961008"class="btn btn-danger" style="width: 100%;">
+                                            <i class="icon-phone" aria-hidden="true"></i> <span>0366.961.008</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="countdown">
+                                    <ul>
+                                      <li><span id="days"></span>days</li>
+                                      <li><span id="hours"></span>Hours</li>
+                                      <li><span id="minutes"></span>Minutes</li>
+                                      <li><span id="seconds"></span>Seconds</li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
             </div>
-        </div>
-    </section>
-    <!--/#hero-text-->
-    <section id="lydoluachon" class="mt-50">
-        <div class="container">
-
-            <div class="section-header">
-                <h3 class="section-title text-center wow fadeInDown">CÁC DÒNG XE Ô TÔ MITSUBISHI</h3>
-                <p class="text-center wow fadeInDown"><strong>Các mẫu xe Mitsubishi</strong> đều được đánh giá cao về chất lượng và kiểu dáng, bền bỉ mạnh mẽ nhưng lại vô cùng thời thượng hẳn là một trong những điểm nhận biết của <strong>Mitsubishi</strong>. Hộp số vô cấp CVT với chương trình điều khiển sang số thông minh <strong>INVECS-III</strong> hoạt động rất mượt mà và êm ái. Hơn hết, khả năng tiết kiệm nhiên liệu của <strong>Mitsubishi</strong> vượt trên hầu hết các đối thủ, giúp chi phí sử dụng xe là thấp hơn cả.<br><strong>Có mức giá bán hợp lý nhất PHÂN KHÚC.</strong></p>
-            </div>
-
             <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="media service-box">
-                            <div class="hexagon_gioithieu" style="margin-bottom: 15px;">
-                                <a href="mitsubishi-attrage.html">
-                                    <img class="img_product_responsive" src="images/trangchu/new-attrage-2022.jpeg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div class="title_product">MITSUBISHI ATTRAGE</div>
-                                <div class="price_product">380.000.000₫</div>
-                               <div style="display: flex;">
-                                    <div class="inline-popups">
-                                        <a class="btn btn-danger" data-effect="mfp-move-from-top" href="#test-popup">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i> Đăng ký lái thử
-                                        </a>
-                                    </div>
-                                    <a href="mitsubishi-attrage.html" class="btn btn-secondary" style="margin-left: 5px;">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Xem đánh giá xe
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="media service-box">
-                            <div class="hexagon_gioithieu" style="margin-bottom: 15px;">
-                                <a href="mitsubishi-xpander.html">
-                                    <img class="img_product_responsive" src="images/trangchu/Xpander-2023-new-5.png" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div class="title_product">MITSUBISHI XPANDER</div>
-                                <div class="price_product">555.000.000₫</div>
-                                <div style="display: flex;">
-                                    <div class="inline-popups">
-                                        <a class="btn btn-danger" data-effect="mfp-move-from-top" href="#test-popup">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i> Đăng ký lái thử
-                                        </a>
-                                    </div>
-                                    <a href="mitsubishi-xpander.html" class="btn btn-secondary" style="margin-left: 5px;">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Xem đánh giá xe
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="media service-box">
-                            <div class="hexagon_gioithieu" style="margin-bottom: 15px;">
-                                <a href="mitsubishi-xpander-cross.html">
-                                    <img class="img_product_responsive" src="images/trangchu/02.jpeg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div class="title_product">MITSUBISHI XPANDER CROSS 2023</div>
-                                <div class="price_product">698.000.000₫</div>
-                                <div style="display: flex;">
-                                    <div class="inline-popups">
-                                        <a class="btn btn-danger" data-effect="mfp-move-from-top" href="#test-popup">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i> Đăng ký lái thử
-                                        </a>
-                                    </div>
-                                    <a href="mitsubishi-xpander-cross.html" class="btn btn-secondary" style="margin-left: 5px;">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Xem đánh giá xe
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="media service-box">
-                            <div class="hexagon_gioithieu" style="margin-bottom: 15px;">
-                                <a href="mitsubishi-triton-athlete.html">
-                                    <img class="img_product_responsive" src="images/trangchu/mitsubishi-triton-athlete-3.jpeg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div class="title_product">MITSUBISHI TRITON ATHLETE</div>
-                                <div class="price_product">780.000.000₫</div>
-                                <div style="display: flex;">
-                                    <div class="inline-popups">
-                                        <a class="btn btn-danger" data-effect="mfp-move-from-top" href="#test-popup">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i> Đăng ký lái thử
-                                        </a>
-                                    </div>
-                                    <a href="mitsubishi-triton-athlete.html" class="btn btn-secondary" style="margin-left: 5px;">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Xem đánh giá xe
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                        <div class="media service-box">
-                            <div class="hexagon_gioithieu" style="margin-bottom: 15px;">
-                                <a href="mitsubishi-outlander.html">
-                                    <img class="img_product_responsive" src="images/trangchu/mitsubishi-outlander-2022-b.jpeg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div class="title_product">MITSUBISHI OUTLANDER</div>
-                                <div class="price_product">825.000.000₫</div>
-                                <div style="display: flex;">
-                                    <div class="inline-popups">
-                                        <a class="btn btn-danger" data-effect="mfp-move-from-top" href="#test-popup">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i> Đăng ký lái thử
-                                        </a>
-                                    </div>
-                                    <a href="mitsubishi-outlander.html" class="btn btn-secondary" style="margin-left: 5px;">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Xem đánh giá xe
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                        <div class="media service-box">
-                            <div class="hexagon_gioithieu" style="margin-bottom: 15px;">
-                                <a href="mitsubishi-pajero-sport.html">
-                                    <img class="img_product_responsive" src="images/trangchu/mitsubishi_0001_new-pajero-sport.jpeg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div class="title_product">MITSUBISHI PAJERO SPORT</div>
-                                <div class="price_product">1.130.000.000₫</div>
-                                <div style="display: flex;">
-                                    <div class="inline-popups">
-                                        <a class="btn btn-danger" data-effect="mfp-move-from-top" href="#test-popup">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i> Đăng ký lái thử
-                                        </a>
-                                    </div>
-                                    <a href="mitsubishi-pajero-sport.html" class="btn btn-secondary" style="margin-left: 5px;">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Xem đánh giá xe
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!--/.col-md-4-->
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
-                        <div class="media service-box">
-                            <div class="hexagon_gioithieu" style="margin-bottom: 15px;">
-                                <a href="mitsubishi-xforce.html">
-                                    <img class="img_product_responsive" src="images/trangchu/XFC-Concept-new-1-1.png" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div class="title_product">MITSUBISHI XFC CONCEPT</div>
-                                <div style="display: flex;">
-                                    <div class="inline-popups">
-                                        <a class="btn btn-danger" data-effect="mfp-move-from-top" href="#test-popup">
-                                            <i class="fa fa-envelope-o" aria-hidden="true"></i> Đăng ký lái thử
-                                        </a>
-                                    </div>
-                                    <a href="mitsubishi-xforce.html" class="btn btn-secondary" style="margin-left: 5px;">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Xem đánh giá xe
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-                </div>
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </section>
-    <!--/#services-->
-    <!--/#portfolio-->
-    <section id="banggiadutinh" class="mt-50">
-        <!-- Start Gallery 1-2 -->
-        <section id="gallery-1" data-section="gallery-1" class="data-section" class="content-block section-wrapper gallery-1">
-
-            <div class="container">
-
-                <div class="section-header">
-                    <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Bảng Giá Dự Tính</h2>
-                    <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Là bảng giá tạm tính vui lòng liên hệ <strong>Hotline: 0366.961.008</strong> để nhận được thông tin về giá và khuyến mãi mới nhất</p>
-                </div>
-                <div class="row form_tinhgia form-group">
-                    <div class="col-sm-12 wow fadeInDown">
-                        <div class="contact-form form-group">
-                            <form>
-                                    <div class="col-sm-4">
-                                        <label for="">Dòng xe</label>
-                                        <select class="form-control dong_xe">
-                                            <option value="1">Mitsubishi Attrage</option>
-                                            <option value="2">Mitsubishi Attrage CVT</option>
-                                            <option value="3">Mitsubishi Attrage CVT Pre</option>
-                                            <option value="4">Mitsubishi Outlander</option>
-                                            <option value="5">Mitsubishi Outlander Pre</option>
-                                            <option value="6">Mitsubishi Pajero Sport (4x2)</option>
-                                            <option value="7">Mitsubishi Pajero Sport (4x4)</option>
-                                            <option value="8">Mitsubishi Xpander MT</option>
-                                            <option value="9">Mitsubishi Xpander Eco</option>
-                                            <option value="10">Mitsubishi Xpander Pre</option>
-                                            <option value="11">Mitsubishi Xpander Cross Cam Đen</option>
-                                            <option value="12">Mitsubishi Xpander Cross Trắng Đen</option>
-                                            <option value="13">Mitsubishi Triton (GLX)</option>
-                                            <option value="14">Mitsubishi Triton (GLS 4x2 1 cầu)</option>
-                                            <option value="15">Mitsubishi Triton (GLS 4x4 2 cầu)</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <label for="">Áp giá thuế theo</label>
-                                        <select class="form-control lap_rap">
-                                            <option value="1">(50%)Lắp ráp trong nước</option>
-                                            <option value="2">(100%)Nhập khẩu</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <label for="">Tỉnh thành phố</label>
-                                        <select class="form-control select2 khuvuc" style="width: 100%;">
-                                            <option value="1">(12%)Hà Nội</option>
-                                            <option value="2">(10%)TP Hồ Chí Minh</option>
-                                            <option value="3">(12%)Quảng Ninh, Hải Phòng, Lào Cai, Cao Bằng, Lạng Sơn, Sơn La</option>
-                                            <option value="4">(11%)Hà Tĩnh</option>
-                                            <option value="5">(10%)Các tỉnh/thành khác</option>
-                                          </select>
-                                    </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 wow fadeInDown">
-                        <div class="table-responsive">
-                            <table class="table table-hover highlight table-bordered bordered">
-                                <thead>
-                                <tr style="background-color: #ed0100;
-                                color: #fff;">
-                                    <th width="30%">STT</th>
-                                    <th width="30%">Loại Phí</th>
-                                    <th width="40%">Giá</th>
+                <div class="elementor-widget-container" style="font-weight: bold;margin-top: 15px;">
+                    <center>
+                        <h3>Khuyến mại áp dụng cho từng dòng xe</h3>
+                    </center>
+                    <div class="table-responsive">
+                        <table style="border-collapse: collapse; width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td><span><strong>Model</strong></span></td>
+                                    <td><span><strong>Khuyến mãi</strong></span></td>
                                 </tr>
-                                </thead>
-                                <tbody class="chitietgia">
-                                    <tr style="font-weight: bold;">
-                                        <td data-label="STT" colspan="2" style="text-align: center;">Tổng chi phí lăn bánh</td>
-                                        <td data-label="Attrage MT" class="text-right tongchiphi"></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">1</td>
-                                        <td data-label="Phiên Bản" style="font-weight: bold;" class="doi_loai_gia">Giá niêm yết</td>
-                                        <td data-label="Attrage MT" class="text-right"> <input type="text" class="form-control money text-right gia_xe" placeholder="Giá xe" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">2</td>
-                                        <td data-label="Phiên Bản">Giá tính thuế nhà nước</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control text-right gia_tinh_thue" placeholder="Giá tính thuế nhà nước" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">3</td>
-                                        <td data-label="Phiên Bản">Phí trước bạ</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right phi_truoc_ba" placeholder="Phí trước bạ" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">4</td>
-                                        <td data-label="Phiên Bản">Bảo hiểm TNDS</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right baohiem_tnds" placeholder="Bảo hiểm TNDS" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">5</td>
-                                        <td data-label="Phiên Bản">Tiền biển số</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right tienbienso" placeholder="Tiền biển số" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">6</td>
-                                        <td data-label="Phiên Bản">Phí đăng kiểm</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right phidangkiem" placeholder="Phí đăng kiểm" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">7</td>
-                                        <td data-label="Phiên Bản">Phí đường bộ 1 năm</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right phiduongbo" placeholder="Phí đường bộ" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">8</td>
-                                        <td data-label="Phiên Bản">Ép biển</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right epbien" placeholder="Ép biển" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">9</td>
-                                        <td data-label="Phiên Bản">Bảo hiểm thân vỏ xe</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right baohiemthanvoxe" placeholder="Bảo hiểm thân vỏ" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">10</td>
-                                        <td data-label="Phiên Bản">Dịch vụ đăng kí đăng kiểm (tùy chọn)</td>
-                                        <td data-label="Attrage MT" class="text-right"><input type="text" class="form-control money text-right dichvudangkiem" placeholder="Dịch vụ đăng ký" /></td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="STT">11</td>
-                                        <td data-label="Phiên Bản">Tặng kèm</td>
-                                        <td data-label="Attrage MT" class="text-right tang_kem"></td>
-                                    </tr>
-                                    <tr style="font-weight: bold;">
-                                        <td data-label="STT" colspan="2" style="text-align: center;">Tổng chi phí lăn bánh</td>
-                                        <td data-label="Attrage MT" class="text-right tongchiphi"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="inline-popups" style="text-align: center;display: grid;">
-                            <strong>Nhận báo giá chuẩn</strong>
-                            <a data-effect="mfp-move-from-top" href="#test-popup">
-                                <img src="images/Dang-ky-ngay-fun88.gif" class="dang_ky_ngay">
-                            </a>
-                        </div>
-                        <div class="elementor-widget-container" style="font-weight: bold;">
-                            <center><em><h3>Khuyến mại áp dụng cho từng dòng xe:&nbsp;</h3></em></center>
-                              <img loading="lazy" src="https://st.nettruyenus.com/Data/Sites/1/skins/comic/images/icon-hot.gif" width="30" height="15" alt=""> Tặng ngay 100% phí trước bạ<br>
-                              – Hỗ trợ trả góp lên đến 80%<br>
-                              <img loading="lazy" src="https://st.nettruyenus.com/Data/Sites/1/skins/comic/images/icon-hot.gif" width="30" height="15" alt=""> Tặng ngay bảo hiểm vật chất xe lên đến 2 năm<br>
-                              – Thời gian vay lên đến 96 tháng<br>
-                              <img loading="lazy" src="https://st.nettruyenus.com/Data/Sites/1/skins/comic/images/icon-hot.gif" width="30" height="15" alt=""> Cấp bảo lãnh trong ngày, hồ sơ nhanh gọn, linh hoạt<br>
-                              – Hỗ trợ, hướng dẫn toàn bộ thủ tục nộp thuế, đăng ký, đăng kiểm xe …<br>
-                              <img loading="lazy" src="https://st.nettruyenus.com/Data/Sites/1/skins/comic/images/icon-hot.gif" width="30" height="15" alt=""> Tư vấn lái thử, chọn xe miễn phí, tận tình, chuyên nghiệp<br>
-                              – <strong style="color: blue;">KHUYẾN MẠI RIÊNG</strong> từng dòng xe và nhiều hấp dẫn khác<br>
-                              <em>(Chỉ áp dụng với Khách hàng đăng ký nhận Khuyến mại tại đây)</em></p>
-                        </div>
+                                <tr>
+                                    <td><span>Mitsubishi Attrage MT</span></td>
+                                    <td><span>– Hỗ trợ 100% lệ phí trước bạ (Trị giá 38.000.000 VNĐ) (2023)</span>
+                                        <p></p>
+                                        <p><span>– Ưu đãi lãi suất 7.5%  (2023)</span></p>
+                                        <p><span>– Camera lùi (Trị giá 2.500.000 VNĐ)</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>Mitsubishi Attrage CVT</span></td>
+                                    <td><span>– Hỗ trợ&nbsp;<strong>100% lệ phí trước bạ</strong> (Trị giá 46.500.000 VNĐ)
+                                            (2022)</span>
+                                        <p></p>
+                                        <p><span>– 01 năm bảo hiểm vật chất (2022)</span></p>
+                                        <p><span>– Phiếu nhiên liệu (Trị giá 10.000.000 VNĐ)</span></p>
+                                        <p><span>– Hỗ trợ 100<strong>% lệ phí trước bạ</strong> (Trị giá 46.500.000 VNĐ) (2023)</span>
+                                        </p>
+                                        <p><span>– Ưu đãi lãi suất 7.5%  (2023)</span></p>
+                                        <p><span>– Ăng ten vây cá (Trị giá 1.500.000 VNĐ) (2022,2023)</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>Mitsubishi Attrage CVT Premium</span></td>
+                                    <td><span>– Ăng ten vây cá (Trị giá 1.500.000 VNĐ)</span>
+                                        <p></p>
+                                        <p><span>– Hỗ trợ 100% lệ phí trước bạ (Trị giá 49.000.000 VNĐ) (2023)</span></p>
+                                        <p><span>– Ưu đãi lãi suất 7.5%  (2023)</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="font-size: 16px;">
+                                        <img loading="lazy"
+                                            src="https://st.nettruyenus.com/Data/Sites/1/skins/comic/images/icon-hot.gif" width="30"
+                                            height="15" alt=""> Cấp bảo lãnh trong ngày, hồ sơ nhanh gọn, linh hoạt<br>
+                                        – Hỗ trợ, hướng dẫn toàn bộ thủ tục nộp thuế, đăng ký, đăng kiểm xe …<br>
+                                        <img loading="lazy"
+                                            src="https://st.nettruyenus.com/Data/Sites/1/skins/comic/images/icon-hot.gif" width="30"
+                                            height="15" alt=""> Tư vấn lái thử, chọn xe miễn phí, tận tình, chuyên nghiệp<br>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <center>
+                            <h3>Dịch vụ lắp đặt thêm khi mua xe tại đại lý</h3>
+                        </center>
+                        <!-- <table class="table table-hover highlight table-bordered bordered">
+                            <thead>
+                            <tr style="background-color: #ed0100;
+                            color: #fff;">
+                                <th style="text-align: center;" width="30%">Gói ComBo</th>
+                                <th style="text-align: center;" width="30%">Chi tiết lắp đặt</th>
+                                <th style="text-align: center;" width="40%">Giá bán lẻ không Combo</th>
+                            </tr>
+                            </thead>
+                            <tbody >
+                                <tr style="font-weight: bold;">
+                                    <td style="text-align: center;"> Option 1 Combo 5 Triệu </td>
+                                    <td>
+                                        <p><span>– Film cách nhiệt SFILM (Bảo hành 5 năm)</span></p>
+                                        <p><span>– Camera hành trình</span></p>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p class="text-right">5,000,000</p>
+                                        <p class="text-right">2,500,000</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Option 2 Combo 4 Triệu</td>
+                                    <td>
+                                        <p><span>– Phủ gầm chống rỉ</span></p>
+                                        <p><span>– Camera hành trình</span></p>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p class="text-right">3,500,000</p>
+                                        <p class="text-right">2,500,000</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Option 3 Combo 7 Triệu</td>
+                                    <td>
+                                        <p><span>– Film cách nhiệt Llumar cao cấp(bảo hành 10 năm)</span></p>
+                                        <p><span>– Trải sàn da 5 chỗ</span></p>
+                                        <p><span>– Phủ gầm chống rỉ</span></p>
+                                        <p><span>– Camera hành trình</span></p>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p class="text-right">8,690,000</p>
+                                        <p class="text-right">1,540,000</p>
+                                        <p class="text-right">3,500,000</p>
+                                        <p class="text-right">2,500,000</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table> -->
                     </div>
                 </div>
-                <div class="row form_tinhgia">
-                    <div class="col-sm-12 wow fadeInDown">
-                          <h3>Công cụ ước tính khoản vay</h3>
-                        <div class="contact-form form-group">
-                            <form>
-                                    <div class="col-sm-2">
-                                        <label for="">Số tiền vay (₫)</label>
-                                        <input type="text" class="form-control money_number so_tien_vay" value="500,000,000" placeholder="Số tiền vay"/>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <label for="">Thời gian vay (Năm)</label>
-                                        <input type="text" class="form-control number thoi_gian_vay" value="5" placeholder="Thời gian vay"/>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <label for="">Lãi suất đầu (%/năm)</label>
-                                        <input type="number" class="form-control lai_suat_dau" value="9" placeholder="Lãi suất đầu"/>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <label for="">Thời gian ưu đãi (T)</label>
-                                        <input type="text" class="form-control number thoi_gian_uu_dai" value="6" placeholder="Lãi suất đầu"/>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <label for="">Lãi suất cuối(%/năm)</label>
-                                        <input type="number" class="form-control lai_suat_tiep_theo" value="12" placeholder="Lãi suất tiếp theo"/>
-                                    </div>
-                                    <div class="col-sm-2">
-                                            <button type="submit" style="margin-top: 26px;" class="btn btn-danger btn-block uoc_tinh">Ước Tính</button>
-                                    </div>
-                            </form>
-                        </div>
-                        <div class="col-sm-12" style="margin-top: 5px;">
-                           <strong> Ghi chú:</strong> <span style="font-style: italic;"><strong>Lãi suất cuối</strong> là lãi suất áp dụng sau khi hết <strong>Thời gian ưu đãi</strong> cho <strong>Lãi suất đầu</strong></span> 
-                        </div>
-                    </div>
+                <div class="inline-popups" style="text-align: center;display: grid;">
+                    <strong>Nhận Khuyến mãi & ưu đãi</strong>
+                    <a data-effect="mfp-move-from-top" href="#test-popup">
+                        <img src="images/Dang-ky-ngay-fun88.gif" class="dang_ky_ngay">
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="installment-content">
-                        <div class="col-sm-12 form-group total-installment">
-                            <div class="col-sm-6">
-                                <p><strong>Tổng lãi phải trả</strong><span id="total_lai">138,875,000 ₫</span></p>
-                            </div>
-                            <div class="col-sm-6">
-                                <p><strong>Tổng số tiền phải trả</strong><span id="total_goc">638,875,000 ₫</span></p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 table-responsive max-height">
-                            <table class="table table-hover highlight table-bordered bordered">
-                                <tbody>
-                                    <tr class="head" style="background-color: #ed0100;
-                                    color: #fff;">
-                                        <th>Kỳ thanh toán</th>
-                                        <th>Dư nợ</th>
-                                        <th>Tiền gốc</th>
-                                        <th>Tiền lãi</th>
-                                        <th>Tổng tiền</th>
-                                    </tr>
-                                </tbody>
-                                <tbody class="chi_tiet_khoan_vay">
-                                   
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
-        </section>
-        <!--// End Gallery 1-2 -->
+            <div class="row">
+                <div class="woocommerce-tabs wc-tabs-wrapper container tabbed-content">
+                    <ul class="tabs wc-tabs product-tabs small-nav-collapse nav nav-uppercase nav-line nav-left" role="tablist" style="align-items: center;
+                    display: inline-block;
+                    display: flex;
+                    flex-flow: row wrap;border-top: 1px solid #ececec;  margin-top: 15px;">
+                        <li class="description_tab active" id="tab-title-description" role="presentation">
+                            <a href="#tab-description" role="tab" aria-selected="true" aria-controls="tab-description">
+                                Mô tả </a>
+                        </li>
+                        <li class="reviews_tab" id="tab-title-reviews" role="presentation">
+                            <a href="#tab-reviews" role="tab" aria-selected="false" aria-controls="tab-reviews" tabindex="-1" style="color: #898888;">
+                                Đánh giá (10) </a>
+                        </li>
+                    </ul>
+                    <div class="tab-panels">
+                        <div>
+                            <!-- #######  THIS IS A COMMENT - Visible only in the source editor #########-->
+                            <h2><strong>MITSUBISHI ATTRAGE &ndash; KHỞI ĐẦU VỮNG CHẮC</strong></h2>
+                            <p><strong>Kế thừa những thế mạnh vốn c&oacute; của một mẫu xe nhập khẩu nguy&ecirc;n chiếc từ Th&aacute;i Lan:
+                                    bền bỉ, tin cậy v&agrave; tiết kiệm nhi&ecirc;n liệu h&agrave;ng đầu ph&acirc;n kh&uacute;c, Mitsubishi
+                                    Attrage mới nay c&ograve;n được kho&aacute;c l&ecirc;n m&igrave;nh thiết kế &ldquo;Dynamic Shield&rdquo;
+                                    hiện đại v&agrave; trẻ trung hơn gi&uacute;p mang đến cho bạn một khởi đầu vững chắc cho h&agrave;nh
+                                    tr&igrave;nh mới.</strong></p>
+                            <div class="video-container"><iframe src="https://www.youtube.com/embed/xm8nsNEDXjE" width="560" height="315"
+                                    data-mce-fragment="1"></iframe></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--/#portfolio-->
-
-
 
     <section id="khachhang" class="mt-50">
         <div class="container">
@@ -1207,6 +913,7 @@
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <!-- Gallery Popup -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script> 
     <script src="js/custom-script-v2.js"></script> 
 </body>
 
