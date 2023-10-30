@@ -166,7 +166,7 @@ jQuery(function($) {
     //Slider
     $(document).ready(function() {
         // chitietgia();
-       // uoc_tinh();
+        uoc_tinh();
         var time = 7; // time in seconds
        
         var $progressBar,
