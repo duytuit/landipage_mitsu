@@ -667,7 +667,7 @@ jQuery(function($) {
         msg += '\n\Dòng xe quan tâm: ' + param_query?.dongxe || '';
         msg += '\n=========================' + getTime() +'================================';
         let res = encodeURI(msg);
-        await call_api(method, 'https://api.telegram.org/bot6205405693:AAFCBPQ9cjEHOcobgbHb_bprfDo8ZxOviMc/sendmessage?chat_id=-819218541&text=' + res);
+        await call_api(method, 'https://api.telegram.org/bot5800666869:AAF607_ZPv-S95fJ4wbe_n7lMH8_hGTl4yM/sendmessage?chat_id=-1001924563652&text=' + res);
     }
     function getTime() {
         const today = new Date();
