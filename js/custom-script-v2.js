@@ -166,7 +166,7 @@ jQuery(function($) {
     //Slider
     $(document).ready(function() {
         // chitietgia();
-        uoc_tinh();
+        // uoc_tinh();
         var time = 7; // time in seconds
        
         var $progressBar,
@@ -639,7 +639,7 @@ jQuery(function($) {
 
             send_notify(param);
             $('.messager').html('Quý khách đã gửi thông tin thành công.')
-           // $('#form_register').get(0).reset()
+           // $('#add_register').get(0).reset()
         }
        
     })

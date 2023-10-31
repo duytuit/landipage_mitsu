@@ -1547,7 +1547,22 @@ ul.nostyle i {
     padding: 0;
     justify-content: center;
 }
+.show_form_register{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.lien_he div{
+    font-size: 16px;
+}
+.lien_he div i{
+    color: #02c04b;
+}
 @media only screen and (max-width: 480px) {
+    .show_form_register{
+        width: 100%;
+        padding: 0 15px;
+    }
    
     .tab-panels .video-container{
         height: 100%;
