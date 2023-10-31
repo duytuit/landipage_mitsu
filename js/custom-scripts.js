@@ -384,7 +384,7 @@ jQuery(function($) {
         removalDelay: 500, //delay removal by X to allow out-animation
         callbacks: {
           beforeOpen: function () {
-            $('#form_register').get(0).reset()
+            $('#add_register').get(0).reset()
             $('.messager').html('')
             this.st.mainClass = this.st.el.attr("data-effect");
           },
@@ -670,7 +670,7 @@ jQuery(function($) {
 
             send_notify(param);
             $('.messager').html('Quý khách đã gửi thông tin thành công.')
-           // $('#form_register').get(0).reset()
+           // $('#add_register').get(0).reset()
         }
        
     })

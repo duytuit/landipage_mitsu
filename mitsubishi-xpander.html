@@ -652,6 +652,37 @@
                                 </tbody>
                             </table>
                         </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group show_form_register"> 
+                            <h3>Thông Tin Đăng Ký Tư Vấn</h3>
+                            <div class="contact-form form-group">
+                                <form id="add_register">
+                                    <div class="form-group">
+                                        <label for="">Họ tên khách hàng</label>
+                                        <input type="text" class="form-control ho_ten_kh" required placeholder="Họ tên khách hàng">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="">Số điện thoại khách hàng</label>
+                                        <input type="text" minlength="10" class="form-control so_dien_thoai_kh" required placeholder="Số điện thoại khách hàng">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="">Dòng xe khách hàng quan tâm</label>
+                                        <select class="form-control dong_xe_quan_tam">
+                                            <option value="Attrage">Mitsubishi Attrage</option>
+                                            <option value="Outlander">Mitsubishi Outlander</option>
+                                            <option value="Pajero">Mitsubishi Pajero Sport</option>
+                                            <option value="Xpander">Mitsubishi Xpander</option>
+                                            <option value="Triton">Mitsubishi Triton</option>
+                                            <option value="Xforce">Mitsubishi Xforce</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group">
+                                        <div class="messager" style="color: blue;"></div>
+                                        <button type="submit" class="btn btn-danger btn-block gui_thong_tin">Gửi thông tin</button>
+                                      </div>
+                                </form>
+                            </div>
+                         </div>
                     </div>
                     </div>
                 </div>
@@ -1104,7 +1135,7 @@
             </div>
             <h3>Thông Tin Đăng Ký Tư Vấn</h3>
             <div class="contact-form form-group">
-                <form id="form_register">
+                <form id="add_register">
                     <div class="form-group">
                         <label for="">Họ tên khách hàng</label>
                         <input type="text" class="form-control ho_ten_kh" required placeholder="Họ tên khách hàng">
