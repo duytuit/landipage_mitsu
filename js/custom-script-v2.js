@@ -175,25 +175,6 @@ jQuery(function($) {
             isPause,
             tick,
             percentTime;
-
-        //Init the carousel
-        $("#main-slider").find('.owl-carousel').owlCarousel({
-            slideSpeed: 500,
-            paginationSpeed: 500,
-            singleItem: true,
-            navigation: true,
-            navigationText: [
-                "<i class='fa fa-angle-left'></i>",
-                "<i class='fa fa-angle-right'></i>"
-            ],
-            afterInit: progressBar,
-            afterMove: moved,
-            startDragging: pauseOnDragging,
-            //autoHeight : true,
-            transitionStyle: "fade" //fadeUp fade goDown backSlide
-
-        });
-
         function progressBar(elem) {
             $elem = elem;
             buildProgressBar();
@@ -268,18 +249,22 @@ jQuery(function($) {
     });
 
     $(document).ready(function() {
-        $('#image-gallery').lightSlider({
-            gallery:true,
-            item:1,
-            thumbItem:4,
+
+        if (document.querySelector("#image-gallery") !== null) {
+          $("#image-gallery").lightSlider({
+            gallery: true,
+            item: 1,
+            thumbItem: 4,
             slideMargin: 0,
-            speed:500,
-            auto:true,
-            loop:true,
-            onSliderLoad: function() {
-                $('#image-gallery').removeClass('cS-hidden');
-            }  
-        });
+            speed: 500,
+            auto: true,
+            loop: true,
+            onSliderLoad: function () {
+              $("#image-gallery").removeClass("cS-hidden");
+            },
+          });
+        }
+      
         //Animated Progress
         $('.progress-bar').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
             if (visible) {
