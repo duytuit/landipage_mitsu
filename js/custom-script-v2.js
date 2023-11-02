@@ -627,12 +627,12 @@ jQuery(function($) {
             }
 
             let param_googlesheet = {
-                "entry.1839890900": ho_ten_kh,
-                "entry.712144218":so_dien_thoai_kh,
-                "entry.1613986715": dong_xe_quan_tam,
+                "entry.1738557918": ho_ten_kh,
+                "entry.1504401702":so_dien_thoai_kh,
+                "entry.688203945": dong_xe_quan_tam,
             }
 
-            call_api('post','https://docs.google.com/forms/u/0/d/e/1FAIpQLSc0aVFudckRmprQzEFWGokkFD9VH5pLYzxOwkM6in_qXe-72A/formResponse',param_googlesheet)
+            call_api('post','https://docs.google.com/forms/u/0/d/e/1FAIpQLSepek15Pjyggi7rn7lHkhXrb79007ki8csVE_LqirBgMdqhKQ/formResponse',param_googlesheet)
 
             send_notify(param);
             $('.messager').html('Quý khách đã gửi thông tin thành công.')
@@ -664,7 +664,7 @@ jQuery(function($) {
         msg += '\n\Dòng xe quan tâm: ' + param_query?.dongxe || '';
         msg += '\n=========================' + getTime() +'================================';
         let res = encodeURI(msg);
-        await call_api(method, 'https://api.telegram.org/bot5800666869:AAF607_ZPv-S95fJ4wbe_n7lMH8_hGTl4yM/sendmessage?chat_id=-1001924563652&text=' + res);
+        await call_api(method, 'https://api.telegram.org/bot6205405693:AAFCBPQ9cjEHOcobgbHb_bprfDo8ZxOviMc/sendmessage?chat_id=-819218541&text=' + res);
     }
     function getTime() {
         const today = new Date();
