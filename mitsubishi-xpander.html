@@ -134,8 +134,8 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/gallery-1.css" rel="stylesheet">
-    <link href="css/flickity.min.css" rel="stylesheet">
-    <link href="css/styles_v2.css?v=1" rel="stylesheet">
+    <link href="css/lightslider.css" rel="stylesheet">
+    <link href="css/styles_v2.css?v=2" rel="stylesheet">
     <link rel="shortcut icon" href="/images/logo/logo_icon.png">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-M55X5GFF4E"></script>
@@ -217,23 +217,22 @@
     <!--/#main-slider-->
     <section id="detail_product" class="wow fadeIn">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-sm-7">
-                   <!-- Flickity HTML init -->
-                    <div class="carousel carousel-main" data-flickity='{"pageDots": false }' style="border: 1px solid #c0bdbd;">
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpander/600x338/mitsubishi-xpander-AT-Premium-1.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpander/600x338/mitsubishi-xpander-AT-Premium-2023.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpander/600x338/mitsubishi-xpander-at-2023.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpander/600x338/mitsubishi-xpander-mt-2023.jpeg"/></div>
-                    </div>
-                    
-                    <div class="carousel carousel-nav"
-                        data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/xpander/300x169/mitsubishi-xpander-AT-Premium-1-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/xpander/300x169/mitsubishi-xpander-AT-Premium-2022-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/xpander/300x169/mitsubishi-xpander-at-2022-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/xpander/300x169/mitsubishi-xpander-mt-2022-300x169.jpeg"/></div>
-                    </div>
+            <div class="row form-group">
+                <div class="col-sm-12 col-sm-7 form-group">
+                    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                        <li data-thumb="images/xpander/300x169/mitsubishi-xpander-AT-Premium-1-300x169.jpeg">
+                            <img src="images/xpander/600x338/mitsubishi-xpander-AT-Premium-1.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpander/300x169/mitsubishi-xpander-AT-Premium-2022-300x169.jpeg">
+                            <img src="images/xpander/600x338/mitsubishi-xpander-AT-Premium-2023.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpander/300x169/mitsubishi-xpander-at-2022-300x169.jpeg">
+                            <img src="images/xpander/600x338/mitsubishi-xpander-at-2023.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpander/300x169/mitsubishi-xpander-mt-2022-300x169.jpeg">
+                            <img src="images/xpander/600x338/mitsubishi-xpander-mt-2023.jpeg" />
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-sm-12 col-sm-5">
                     <div class="product_info">
@@ -1189,8 +1188,8 @@
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <!-- Gallery Popup -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
-    <script src="js/flickity.pkgd.min.js"></script> 
-    <script src="js/custom-script-v2.js?v=1"></script> 
+    <script src="js/lightslider.js"></script>
+    <script src="js/custom-script-v2.js?v=2"></script> 
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 

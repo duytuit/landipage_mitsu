@@ -133,8 +133,8 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/gallery-1.css" rel="stylesheet">
-    <link href="css/flickity.min.css" rel="stylesheet">
-    <link href="css/styles_v2.css?v=1" rel="stylesheet">
+    <link href="css/lightslider.css" rel="stylesheet">
+    <link href="css/styles_v2.css?v=2" rel="stylesheet">
     <link rel="shortcut icon" href="/images/logo/logo_icon.png">
     <style>
         .cus_table tr td {
@@ -221,24 +221,24 @@
     <!--/#main-slider-->
     <section id="detail_product" class="wow fadeIn">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-sm-7">
-                   <!-- Flickity HTML init -->
-                    <div class="carousel carousel-main" data-flickity='{"pageDots": false }' style="border: 1px solid #c0bdbd;">
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0004_new-pajero-sport.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0005_new-pajero-sport-1.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0005_new-pajero-sport.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0006_new-pajero-sport.jpeg"/></div>
-                    </div>
-                    
-                    <div class="carousel carousel-nav"
-                        data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/pajero-sport/300x169/mitsubishi09052021-13-2_0004_new-pajero-sport-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/pajero-sport/300x169/mitsubishi09052021-13-2_0005_new-pajero-sport-300x169-1.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/pajero-sport/300x169/mitsubishi09052021-13-2_0005_new-pajero-sport-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/pajero-sport/300x169/mitsubishi09052021-13-2_0006_new-pajero-sport-300x169.jpeg"/></div>
-                    </div>
-                </div>
+            <div class="row form-group">
+                <div class="col-sm-12 col-sm-7 form-group">
+                    <!-- Flickity HTML init -->
+                     <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                         <li data-thumb="images/pajero-sport/300x169/mitsubishi09052021-13-2_0004_new-pajero-sport-300x169.jpeg">
+                             <img src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0004_new-pajero-sport.jpeg" />
+                         </li>
+                         <li data-thumb="images/pajero-sport/300x169/mitsubishi09052021-13-2_0005_new-pajero-sport-300x169-1.jpeg">
+                             <img src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0005_new-pajero-sport-1.jpeg" />
+                         </li>
+                         <li data-thumb="images/pajero-sport/300x169/mitsubishi09052021-13-2_0005_new-pajero-sport-300x169.jpeg">
+                             <img src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0005_new-pajero-sport.jpeg" />
+                         </li>
+                         <li data-thumb="images/pajero-sport/300x169/mitsubishi09052021-13-2_0006_new-pajero-sport-300x169.jpeg">
+                             <img src="images/pajero-sport/600x338/mitsubishi09052021-13-2_0006_new-pajero-sport.jpeg" />
+                         </li>
+                     </ul>
+                 </div>
                 <div class="col-sm-12 col-sm-5">
                     <div class="product_info">
                         <h1 class="product_title">MITSUBISHI PAJERO SPORT</h1>
@@ -1339,8 +1339,8 @@
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <!-- Gallery Popup -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
-    <script src="js/flickity.pkgd.min.js"></script> 
-    <script src="js/custom-script-v2.js?v=1"></script> 
+    <script src="js/lightslider.js"></script>
+    <script src="js/custom-script-v2.js?v=2"></script> 
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 

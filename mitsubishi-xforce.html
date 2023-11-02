@@ -97,8 +97,8 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/gallery-1.css" rel="stylesheet">
-    <link href="css/flickity.min.css" rel="stylesheet">
-    <link href="css/styles_v2.css?v=1" rel="stylesheet">
+    <link href="css/lightslider.css" rel="stylesheet">
+    <link href="css/styles_v2.css?v=2" rel="stylesheet">
     <link rel="shortcut icon" href="/images/logo/logo_icon.png">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-M55X5GFF4E"></script>
@@ -180,37 +180,43 @@
     <!--/#main-slider-->
     <section id="detail_product" class="wow fadeIn">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-sm-7">
-                   <!-- Flickity HTML init -->
-                    <div class="carousel carousel-main" data-flickity='{"pageDots": false }' style="border: 1px solid #c0bdbd;">
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-6.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-7.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-8.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-9.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-10.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-11.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-1.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-2.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-3.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/mitsubishi-xforce-2024-4.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/new-xforce/600x338/noi-that-xforce.jpeg"/></div>
-                    </div>
-                    
-                    <div class="carousel carousel-nav"
-                        data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-6-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-7-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-8-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-9-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-10-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-11-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-1-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-2-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-3-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/mitsubishi-xforce-2024-4-247x296.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img loading="lazy" src="images/new-xforce/300x169/noi-that-xforce-247x296.jpeg"/></div>
-                    </div>
+            <div class="row form-group">
+                <div class="col-sm-12 col-sm-7 form-group">
+                    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-6-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-6.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-7-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-7.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-8-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-8.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-9-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-9.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-10-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-10.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-11-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-11.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-1-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-1.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-2-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-2.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-3-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-3.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/mitsubishi-xforce-2024-4-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/mitsubishi-xforce-2024-4.jpeg" />
+                       </li>
+                       <li data-thumb="images/new-xforce/300x169/noi-that-xforce-247x296.jpeg">
+                           <img src="images/new-xforce/600x338/noi-that-xforce.jpeg" />
+                       </li>
+                   </ul>
                 </div>
                 <div class="col-sm-12 col-sm-5">
                     <div class="product_info">
@@ -880,8 +886,8 @@
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <!-- Gallery Popup -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
-    <script src="js/flickity.pkgd.min.js"></script> 
-    <script src="js/custom-script-v2.js?v=1"></script> 
+    <script src="js/lightslider.js"></script>
+    <script src="js/custom-script-v2.js?v=2"></script> 
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 
