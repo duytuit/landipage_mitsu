@@ -1182,7 +1182,7 @@
     <!--/#footer-->
     <div id="button-contact-vr" class="" aria-hidden="false">
         <div id="gom-all-in-one"><!-- v3 -->
-            <div id="zalo-vr" class="button-contact">
+            <!-- <div id="zalo-vr" class="button-contact">
                 <div class="phone-vr">
                     <a target="_blank" href="https://zalo.me/0366961008">
                         <div class="phone-vr-circle-fill"></div>
@@ -1191,7 +1191,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> -->
             <div id="phone-vr" class="button-contact">
                 <div class="phone-vr">
                     <div class="phone-vr-circle-fill"></div>
@@ -1316,6 +1316,36 @@
                 var number = value.replace(/[,.]/g, '');
                 return new Intl.NumberFormat().format(number).replace(/\./g, ',');
             } 
+    </script>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "137284059471938");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     </script>
 </body>
 
