@@ -627,12 +627,12 @@ jQuery(function($) {
             }
 
             let param_googlesheet = {
-                "entry.1738557918": ho_ten_kh,
-                "entry.1504401702":so_dien_thoai_kh,
-                "entry.688203945": dong_xe_quan_tam,
+                "entry.1839890900": ho_ten_kh,
+                "entry.712144218":so_dien_thoai_kh,
+                "entry.1613986715": dong_xe_quan_tam,
             }
 
-            call_api('post','https://docs.google.com/forms/u/0/d/e/1FAIpQLSepek15Pjyggi7rn7lHkhXrb79007ki8csVE_LqirBgMdqhKQ/formResponse',param_googlesheet)
+            call_api('post','https://docs.google.com/forms/u/0/d/e/1FAIpQLSc0aVFudckRmprQzEFWGokkFD9VH5pLYzxOwkM6in_qXe-72A/formResponse',param_googlesheet)
 
             send_notify(param);
             $('.messager').html('Quý khách đã gửi thông tin thành công.')
