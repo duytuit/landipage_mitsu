@@ -268,6 +268,18 @@ jQuery(function($) {
     });
 
     $(document).ready(function() {
+        $('#image-gallery').lightSlider({
+            gallery:true,
+            item:1,
+            thumbItem:4,
+            slideMargin: 0,
+            speed:500,
+            auto:true,
+            loop:true,
+            onSliderLoad: function() {
+                $('#image-gallery').removeClass('cS-hidden');
+            }  
+        });
         //Animated Progress
         $('.progress-bar').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
             if (visible) {

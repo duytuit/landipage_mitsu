@@ -133,7 +133,7 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/gallery-1.css" rel="stylesheet">
-    <link href="css/flickity.min.css" rel="stylesheet">
+    <link href="css/lightslider.css" rel="stylesheet">
     <link href="css/styles_v2.css?v=2" rel="stylesheet">
     <link rel="shortcut icon" href="/images/logo/logo_icon.png">
     <!-- Google tag (gtag.js) -->
@@ -218,36 +218,43 @@
     <section id="detail_product" class="wow fadeIn">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-sm-7">
-                   <!-- Flickity HTML init -->
-                    <div class="carousel carousel-main" data-flickity='{"pageDots": false }' style="border: 1px solid #c0bdbd;">
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-2023-03b.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-color-032023_0000_Layer-4.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-color-032023_0001_Layer-3.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-color-032023_0002_Layer-2.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-color-032023_0003_Layer-1.jpeg"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-van-hanh-0323-34.jpeg" height="338"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-thiet-ke-ngoai-that-0323-01.jpeg" height="338"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-thiet-ke-ngoai-that-0323-02.jpeg" height="338"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-thiet-ke-noi-that-0323-10.jpeg" height="338"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-thiet-ke-noi-that-0323-11.jpeg" height="338"/></div>
-                        <div class="carousel-cell img_detail"><img loading="lazy" src="images/xpandercross/600x338/xpander-cross-thiet-ke-noi-that-0323-12.jpeg" height="338"/></div>
-                    </div>
-                    
-                    <div class="carousel carousel-nav"
-                        data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-2023-03b-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-color-032023_0000_Layer-4-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-color-032023_0001_Layer-3-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-color-032023_0002_Layer-2-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-color-032023_0003_Layer-1-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-van-hanh-0323-34-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-thiet-ke-ngoai-that-0323-01-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-thiet-ke-ngoai-that-0323-02-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-thiet-ke-noi-that-0323-10-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-thiet-ke-noi-that-0323-11-300x169.jpeg"/></div>
-                        <div class="carousel-cell img_thumbnail"><img src="images/xpandercross/300x169/xpander-cross-thiet-ke-noi-that-0323-12-300x169.jpeg"/></div>
-                    </div>
+                <div class="col-sm-12 col-sm-7 form-group">
+               
+                    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-2023-03b-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-2023-03b.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-color-032023_0000_Layer-4-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-color-032023_0000_Layer-4.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-color-032023_0001_Layer-3-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-color-032023_0001_Layer-3.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-color-032023_0002_Layer-2-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-color-032023_0002_Layer-2.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-color-032023_0003_Layer-1-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-color-032023_0003_Layer-1.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-van-hanh-0323-34-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-van-hanh-0323-34.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-thiet-ke-ngoai-that-0323-01-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-thiet-ke-ngoai-that-0323-01.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-thiet-ke-ngoai-that-0323-02-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-thiet-ke-ngoai-that-0323-02.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-thiet-ke-noi-that-0323-10-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-thiet-ke-noi-that-0323-10.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-thiet-ke-noi-that-0323-11-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-thiet-ke-noi-that-0323-11.jpeg" />
+                        </li>
+                        <li data-thumb="images/xpandercross/300x169/xpander-cross-thiet-ke-noi-that-0323-12-300x169.jpeg">
+                            <img src="images/xpandercross/600x338/xpander-cross-thiet-ke-noi-that-0323-12.jpeg" />
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-sm-12 col-sm-5">
                     <div class="product_info">
@@ -313,7 +320,7 @@
                                 <tr>
                                     <td><span>Mitsubishi Xpander Cross 2023</span></td>
                                     <td><span>698 triệu</span></td>
-                                    <td><span>– Hỗ trợ 50% lệ phí trước bạ (Trị giá 37.000.000 VNĐ)</span>
+                                    <td><span>– Hỗ trợ 100% lệ phí trước bạ (Trị giá 70.300.000 VNĐ)</span>
                                         <p></p>
                                         <p><span>– Camera toàn cảnh 360 (Trị giá 20.000.000 VNĐ)</span></p>
                                         <p><span>– 01 năm bảo hiểm vật chất</span></p>
@@ -1183,7 +1190,7 @@
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <!-- Gallery Popup -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
-    <script src="js/flickity.pkgd.min.js"></script> 
+     <script src="js/lightslider.js"></script>  
     <script src="js/custom-script-v2.js?v=2"></script> 
 </body>
 
