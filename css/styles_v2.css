@@ -1572,6 +1572,9 @@ ul.nostyle i {
     border: 0.5px solid #999696;
 }
 @media only screen and (max-width: 480px) {
+    .logoSection {
+        margin-left: 0;
+    }
     .image_lienhe,.image_right_lienhe{
         width: 100%; height: auto;object-fit: contain;
     }
