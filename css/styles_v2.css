@@ -86,10 +86,13 @@ p {
     height: 4px;
     background: #ed0100;
 }
-
+.image_lai_thu{
+    background-image: url('/images/slider/MMV_X-Force_Digital_Website-Cover_Desktop_N.jpeg');
+    height: 500px;
+}
 .logoSection {
     float: left;
-    /* margin-left: 40px; */
+    margin-left: 50px;
 }
 
 .fa-car {
@@ -1558,7 +1561,13 @@ ul.nostyle i {
 .lien_he div i{
     color: #02c04b;
 }
+.image_lienhe,.image_right_lienhe{
+    width: 100%; height: 500px;object-fit: cover;
+}
 @media only screen and (max-width: 480px) {
+    .image_lienhe,.image_right_lienhe{
+        width: 100%; height: auto;object-fit: contain;
+    }
     .show_form_register{
         width: 100%;
         padding: 0 15px;
