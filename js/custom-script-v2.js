@@ -175,6 +175,23 @@ jQuery(function($) {
             isPause,
             tick,
             percentTime;
+              //Init the carousel
+        $("#main-slider").find('.owl-carousel').owlCarousel({
+            slideSpeed: 500,
+            paginationSpeed: 500,
+            singleItem: true,
+            navigation: true,
+            navigationText: [
+                "<i class='fa fa-angle-left'></i>",
+                "<i class='fa fa-angle-right'></i>"
+            ],
+            afterInit: progressBar,
+            afterMove: moved,
+            startDragging: pauseOnDragging,
+            //autoHeight : true,
+            transitionStyle: "fade" //fadeUp fade goDown backSlide
+
+        });
         function progressBar(elem) {
             $elem = elem;
             buildProgressBar();
