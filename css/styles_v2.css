@@ -1571,7 +1571,20 @@ ul.nostyle i {
 .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover {
     border: 0.5px solid #999696;
 }
+.logochaokhach{
+    position: fixed;
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    z-index: 1001;
+}
 @media only screen and (max-width: 480px) {
+    .logochaokhach {
+        height: 140px;
+        width: 200px;
+    }
     .logoSection {
         margin-left: 0;
     }

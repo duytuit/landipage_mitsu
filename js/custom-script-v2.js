@@ -19,7 +19,7 @@ jQuery(function($) {
         {
             "loai_xe":1,// Attrage
             "gia_xe":380000000,
-            "gia_thuc_ban":328000000,
+            "gia_thuc_ban":335000000,
             "gia_dong_thuan":451000000,
             "gia_tinh_thue":380000000,
             "cho_ngoi":5,
@@ -28,7 +28,7 @@ jQuery(function($) {
         {
             "loai_xe":2,// Mitsubishi Attrage CVT
             "gia_xe":465000000,
-            "gia_thuc_ban":402000000,
+            "gia_thuc_ban":409000000,
             "gia_dong_thuan":363000000,
             "gia_tinh_thue":465000000,
             "cho_ngoi":5,
@@ -37,7 +37,7 @@ jQuery(function($) {
         {
             "loai_xe":3,// Attrage CVT Pre
             "gia_xe":480000000,
-            "gia_thuc_ban":423000000,
+            "gia_thuc_ban":430000000,
             "gia_dong_thuan":476000000,
             "gia_tinh_thue":480000000,
             "cho_ngoi":5,
@@ -46,7 +46,7 @@ jQuery(function($) {
         {
             "loai_xe":4,// Outlander
             "gia_xe":825000000,
-            "gia_thuc_ban":748000000,
+            "gia_thuc_ban":752000000,
             "gia_dong_thuan":792000000,
             "gia_tinh_thue":825000000,
             "cho_ngoi":5,
@@ -55,7 +55,7 @@ jQuery(function($) {
         {
             "loai_xe":5,//Outlander Pre
             "gia_xe":950000000,
-            "gia_thuc_ban":863000000,
+            "gia_thuc_ban":865000000,
             "gia_dong_thuan":911000000,
             "gia_tinh_thue":950000000,
             "cho_ngoi":5,
@@ -82,20 +82,20 @@ jQuery(function($) {
         {
             "loai_xe":8,// Xpander MT
             "gia_xe":555000000,
-            "gia_thuc_ban":530000000,
+            "gia_thuc_ban":522000000,
             "gia_dong_thuan":538000000,
             "gia_tinh_thue":555000000,
             "cho_ngoi":7,
-            "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
+            "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         },
         {
             "loai_xe":9,// Xpander Eco
             "gia_xe":598000000,
-            "gia_thuc_ban":544000000,
+            "gia_thuc_ban":534000000,
             "gia_dong_thuan":538000000,
             "gia_tinh_thue":598000000,
             "cho_ngoi":7,
-            "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
+            "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         },
         {
             "loai_xe":10,// Xpander Pre
@@ -109,16 +109,16 @@ jQuery(function($) {
         {
             "loai_xe":11,// Xpander Cross Cam Đen
             "gia_xe":705000000,
-            "gia_thuc_ban":634000000,
+            "gia_thuc_ban":624000000,
             "gia_dong_thuan":663000000,
             "gia_tinh_thue":705000000,
             "cho_ngoi":7,
-            "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Bảo hiểm + Kính 3M + Trải Sàn"
+            "tang_kem":"Sổ da đựng giấy tờ + Vitamin 1tr5 + Kính 3M + Trải Sàn"
         },
         {
             "loai_xe":12,// Xpander Cross Trắng Đen
             "gia_xe":698000000,
-            "gia_thuc_ban":629000000,
+            "gia_thuc_ban":632000000,
             "gia_dong_thuan":663000000,
             "gia_tinh_thue":698000000,
             "cho_ngoi":7,
@@ -136,7 +136,7 @@ jQuery(function($) {
         {
             "loai_xe":14,// Triton (GLS 4x2 1 cầu)
             "gia_xe":780000000,
-            "gia_thuc_ban":691000000,
+            "gia_thuc_ban":700000000,
             "gia_dong_thuan":752000000,
             "gia_tinh_thue":780000000,
             "cho_ngoi":9,
@@ -145,7 +145,7 @@ jQuery(function($) {
         {
             "loai_xe":15,// Triton (GLS 4x4 2 cầu)
             "gia_xe":905000000,
-            "gia_thuc_ban":835000000,
+            "gia_thuc_ban":814000000,
             "gia_dong_thuan":871000000,
             "gia_tinh_thue":905000000,
             "cho_ngoi":9,
