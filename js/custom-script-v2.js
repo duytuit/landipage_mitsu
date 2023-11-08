@@ -127,7 +127,7 @@ jQuery(function($) {
         {
             "loai_xe":13,// Triton (GLX)
             "gia_xe":650000000,
-            "gia_thuc_ban":585000000,
+            "gia_thuc_ban":587000000,
             "gia_dong_thuan":629000000,
             "gia_tinh_thue":650000000,
             "cho_ngoi":9,
